@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.2.15f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/3jd/Desktop/Carlos & Pedro/atv.3bim
+C:/Users/3jd/Desktop/atv3bim
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-49850
-Successfully changed project path to: C:/Users/3jd/Desktop/Carlos & Pedro/atv.3bim
-C:/Users/3jd/Desktop/Carlos & Pedro/atv.3bim
+52527
+Successfully changed project path to: C:/Users/3jd/Desktop/atv3bim
+C:/Users/3jd/Desktop/atv3bim
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,15 +47,15 @@ C:/Users/3jd/Desktop/Carlos & Pedro/atv.3bim
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2372] Host "[IP] 192.168.1.189 [Port] 0 [Flags] 2 [Guid] 2504025406 [EditorId] 2504025406 [Version] 1048832 [Id] WindowsEditor(7,LAB3-30) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10852] Host "[IP] 192.168.1.155 [Port] 0 [Flags] 2 [Guid] 1599511070 [EditorId] 1599511070 [Version] 1048832 [Id] WindowsEditor(7,LAB3-30) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2372] Host "[IP] 192.168.1.189 [Port] 0 [Flags] 2 [Guid] 2504025406 [EditorId] 2504025406 [Version] 1048832 [Id] WindowsEditor(7,LAB3-30) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10852] Host "[IP] 192.168.1.155 [Port] 0 [Flags] 2 [Guid] 1599511070 [EditorId] 1599511070 [Version] 1048832 [Id] WindowsEditor(7,LAB3-30) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 5.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.15f1 (30d813e1a2a9)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/3jd/Desktop/Carlos & Pedro/atv.3bim/Assets
+[Subsystems] Discovering subsystems at path C:/Users/3jd/Desktop/atv3bim/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004109 seconds.
-- Loaded All Assemblies, in  0.274 seconds
+Registered in 0.004226 seconds.
+- Loaded All Assemblies, in  0.273 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.238 seconds
+- Finished resetting the current domain, in  0.232 seconds
 Domain Reload Profiling:
 	ReloadAssembly (160ms)
-		BeginReloadAssembly (73ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (71ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (109ms)
-				TypeCache.Initialize (109ms)
-					TypeCache.ScanAssembly (107ms)
+			SetupTypeCache (108ms)
+				TypeCache.Initialize (107ms)
+					TypeCache.ScanAssembly (106ms)
 				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (187ms)
+			SetupLoadedEditorAssemblies (180ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (7ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (128ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,50 +109,50 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\3jd\Desktop\Carlos & Pedro\atv.3bim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\3jd\Desktop\Carlos & Pedro\atv.3bim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.585 seconds
-Refreshing native plugins compatible for Editor in 4.01 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\3jd\Desktop\atv3bim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\3jd\Desktop\atv3bim\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.594 seconds
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.405 seconds
+- Finished resetting the current domain, in  0.496 seconds
 Domain Reload Profiling:
-	ReloadAssembly (180ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (188ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		LoadAllAssembliesAndSetupDomain (404ms)
-			LoadAssemblies (197ms)
+			CreateAndSetChildDomain (22ms)
+		LoadAllAssembliesAndSetupDomain (405ms)
+			LoadAssemblies (205ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (254ms)
-				TypeCache.Initialize (238ms)
-					TypeCache.ScanAssembly (234ms)
+			SetupTypeCache (250ms)
+				TypeCache.Initialize (235ms)
+					TypeCache.ScanAssembly (231ms)
 				ResolveRequiredComponents (3ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (283ms)
+			SetupLoadedEditorAssemblies (367ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (210ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (276ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (66.3 KB). Loaded Objects now: 3570.
-Memory consumption went from 109.6 MB to 109.5 MB.
-Total: 2.706300 ms (FindLiveObjects: 0.270400 ms CreateObjectMapping: 0.080900 ms MarkObjects: 2.248400 ms  DeleteObjects: 0.105500 ms)
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (66.4 KB). Loaded Objects now: 3571.
+Memory consumption went from 110.1 MB to 110.0 MB.
+Total: 4.172300 ms (FindLiveObjects: 0.370200 ms CreateObjectMapping: 0.082500 ms MarkObjects: 3.466700 ms  DeleteObjects: 0.251000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -167,106 +167,338 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 909.766334 seconds.
-  path: Assets/JJ_InteriorDoorPack_V1/Textures
-  artifactKey: Guid(224fcb81016b35f449ee9f5f3bd94ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JJ_InteriorDoorPack_V1/Textures using Guid(224fcb81016b35f449ee9f5f3bd94ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0ce84a0cf9b8ed724b07e3d6113b3c') in 0.009559 seconds
+  Time since last request: 11407.217092 seconds.
+  path: Assets/TV/Prefab/TV-box.prefab
+  artifactKey: Guid(2e20a9d5d499bdb47989d3e52387e91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TV/Prefab/TV-box.prefab using Guid(2e20a9d5d499bdb47989d3e52387e91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903fc8e128a2c03befc427aee319ed90') in 0.200090 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 0.067993 seconds.
-  path: Assets/JJ_InteriorDoorPack_V1/Textures/T_intDoorWhite_AT.png
-  artifactKey: Guid(63a72aa542003b0448ff3bd776b2db17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JJ_InteriorDoorPack_V1/Textures/T_intDoorWhite_AT.png using Guid(63a72aa542003b0448ff3bd776b2db17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a22594edfa96d2c00744f9c372dee1') in 0.061180 seconds
+  Time since last request: 527.760742 seconds.
+  path: Assets/Azerilo/Demo Floor/Prefab/Floor.prefab
+  artifactKey: Guid(2fb21da965b40ee45b270cc570e98192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/Demo Floor/Prefab/Floor.prefab using Guid(2fb21da965b40ee45b270cc570e98192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4a27f3b98e04dffe2dcf959b7e75dc') in 0.084145 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Azerilo/Free Rug Pack/Prefab/Rug2.prefab
+  artifactKey: Guid(46d2992933c6968418c33e934904d7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/Free Rug Pack/Prefab/Rug2.prefab using Guid(46d2992933c6968418c33e934904d7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9b7cd893c602292d6039dc9e044017') in 0.019403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 78.563270 seconds.
+  path: Assets/furniture/3d/armchair_1.FBX
+  artifactKey: Guid(e6de05233ad7dfb4f85d67d8af7093be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/furniture/3d/armchair_1.FBX using Guid(e6de05233ad7dfb4f85d67d8af7093be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1927fc0b275db1856feafda635fc7d9e') in 0.043381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Meshes/intDoor_knob01.fbx
+  artifactKey: Guid(7f64fa277f063764fa867c869ab08563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Meshes/intDoor_knob01.fbx using Guid(7f64fa277f063764fa867c869ab08563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252e65cbf0253562b57f8213ff73f11d') in 0.031321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Meshes/intDoor_metalFrame.fbx
+  artifactKey: Guid(a15ab0fb95184604fbcff36e6621610a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Meshes/intDoor_metalFrame.fbx using Guid(a15ab0fb95184604fbcff36e6621610a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d0c682a201cbc8d8dc8fd786c58475') in 0.035043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor1_white_weathered_N.png
-  artifactKey: Guid(f40ea022b39576e46b0486c0e2da07cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor1_white_weathered_N.png using Guid(f40ea022b39576e46b0486c0e2da07cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbeb11677e5a8522f33eea5ecb8d24b4') in 0.048080 seconds
+  path: Assets/TV/Model/TV-box.FBX
+  artifactKey: Guid(350939ad8b70e6c4ca4f7712a95c3f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TV/Model/TV-box.FBX using Guid(350939ad8b70e6c4ca4f7712a95c3f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96bfe9d3fe6514f8dfdec47036188c4') in 0.024410 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor3_white_weathered_AT.png
-  artifactKey: Guid(084cc9ec779118f469cfd7d56ec6277d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor3_white_weathered_AT.png using Guid(084cc9ec779118f469cfd7d56ec6277d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369b175281b49ce45eca1d6a438d4a09') in 0.019680 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor2_white_weathered_N.png
-  artifactKey: Guid(29ce8deeead3eb54c8d58fdc89ae0432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor2_white_weathered_N.png using Guid(29ce8deeead3eb54c8d58fdc89ae0432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85f1daab123c1be1625a4ba9c373851') in 0.021727 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor1_red_weathered_AT.png
-  artifactKey: Guid(88768fb049227ad43a63ab6b80d3b98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor1_red_weathered_AT.png using Guid(88768fb049227ad43a63ab6b80d3b98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e132931de0a3e2a545004b1e96c14617') in 0.020427 seconds
+  path: Assets/JJ_InteriorDoorPack_V1/Meshes/intDoor.fbx
+  artifactKey: Guid(f0d4298dcac2ffd499747abaa06977ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Meshes/intDoor.fbx using Guid(f0d4298dcac2ffd499747abaa06977ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971bc5c6096f51741f94ddcf921d36da') in 0.031390 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor4_red_N.png
-  artifactKey: Guid(f39796180faeaeb47899872e3541afa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor4_red_N.png using Guid(f39796180faeaeb47899872e3541afa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04feb306c26cfc4d97c10a1c6d3e6d04') in 0.022895 seconds
+  Time since last request: 0.000020 seconds.
+  path: Assets/Azerilo/Free Rug Pack/Mesh/Rug.fbx
+  artifactKey: Guid(218f82d5989bc2a41875ffbf40e9f3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/Free Rug Pack/Mesh/Rug.fbx using Guid(218f82d5989bc2a41875ffbf40e9f3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4fd30e3b39142b49069cc3bad22874') in 0.023295 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor4_white_weathered_AT.png
-  artifactKey: Guid(73ade9de8d89d9e4bbcf19d65aacdde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor4_white_weathered_AT.png using Guid(73ade9de8d89d9e4bbcf19d65aacdde3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7498deaa1e3e4685bb9059bbdf16663') in 0.021998 seconds
+  Time since last request: 120.167984 seconds.
+  path: Assets/furniture/3d/Materials/armchair_1.mat
+  artifactKey: Guid(bc242f63ae3d4ac49a0d4b731a993366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/furniture/3d/Materials/armchair_1.mat using Guid(bc242f63ae3d4ac49a0d4b731a993366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e55b80f7908f6e73873d1dcd02c8c24') in 0.041982 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor2_white_weathered_MS.png
-  artifactKey: Guid(20b85b61c13cc724688d6f00624019da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor2_white_weathered_MS.png using Guid(20b85b61c13cc724688d6f00624019da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186c8f41789bf2679a3ceefb3a4ae295') in 0.016856 seconds
+  Time since last request: 0.000107 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Materials/mat_door2_white.mat
+  artifactKey: Guid(e2510ac76f21ae845a9d0433894abbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Materials/mat_door2_white.mat using Guid(e2510ac76f21ae845a9d0433894abbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8437fe168c05d43b651cc812d368a44') in 0.034211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Azerilo/Free Rug Pack/Material/Material3.mat
+  artifactKey: Guid(bec706126ee43674b8032c91f2ae69d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/Free Rug Pack/Material/Material3.mat using Guid(bec706126ee43674b8032c91f2ae69d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6761ad98a66f1c377718d90bd1d06389') in 0.019518 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor2_white_weathered_AT.png
-  artifactKey: Guid(11b3c8d3b19e8e841911b9688a9c681c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JJ_InteriorDoorPack_V1/Textures/T_mat_intDoor2_white_weathered_AT.png using Guid(11b3c8d3b19e8e841911b9688a9c681c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f7a99c1c60216934b674513cf05c75') in 0.020812 seconds
+  path: Assets/JJ_InteriorDoorPack_V1/Materials/mat_door3_white.mat
+  artifactKey: Guid(2f91f9b6c519c5844b10ff61c9401ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Materials/mat_door3_white.mat using Guid(2f91f9b6c519c5844b10ff61c9401ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8143ae14233545a21420185b9e8df1') in 0.029436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Stylized Wood Textures/Materials/Planks/Planks.mat
+  artifactKey: Guid(a384b583426023d4da68d3f25e868451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Wood Textures/Materials/Planks/Planks.mat using Guid(a384b583426023d4da68d3f25e868451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30055ca1b5f74a64599d38be580ccbd5') in 0.025809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/furniture/3d/Materials/sofa_1_mid.mat
+  artifactKey: Guid(d425bca5c594f8d4b9f42bac8f7bd244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/furniture/3d/Materials/sofa_1_mid.mat using Guid(d425bca5c594f8d4b9f42bac8f7bd244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da4b082795c766c65e739b7c57fe435') in 0.028584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/furniture/3d/Materials/sofa_1_old.mat
+  artifactKey: Guid(ad5a9af9559a6904383d93ec9f895ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/furniture/3d/Materials/sofa_1_old.mat using Guid(ad5a9af9559a6904383d93ec9f895ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0798b77923b3d684c158e51fe82e9386') in 0.028391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Materials/mat_door3_white_weathered.mat
+  artifactKey: Guid(f180676a82323ba408783288a21243ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Materials/mat_door3_white_weathered.mat using Guid(f180676a82323ba408783288a21243ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2910496a06c91c9354a4b7ae0cb3e12e') in 0.026274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/furniture/3d/Materials/armchair_1_old.mat
+  artifactKey: Guid(8d4b92cb440b913479525cdb183de311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/furniture/3d/Materials/armchair_1_old.mat using Guid(8d4b92cb440b913479525cdb183de311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a1d41382c6df67dfe011311bce1759') in 0.026399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Hand Painted Seamless Wood Texture/Materials/M_Wood2.mat
+  artifactKey: Guid(3e3fe7d08624f594bb8e96487091bd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Painted Seamless Wood Texture/Materials/M_Wood2.mat using Guid(3e3fe7d08624f594bb8e96487091bd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a895a644afcaeae8ac8ab005cf0994') in 0.022503 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 11.758459 seconds.
-  path: Assets/RawWoodenFurnitureFree/Textures
-  artifactKey: Guid(6f577fa97a618654999d76a403f52fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RawWoodenFurnitureFree/Textures using Guid(6f577fa97a618654999d76a403f52fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682531a56bdcfa84f73fa6984e28f099') in 0.000745 seconds
+  Time since last request: 0.000020 seconds.
+  path: Assets/furniture/3d/Materials/armchair_1_new.mat
+  artifactKey: Guid(e7c747c22a0298d4b962e8c728faa03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/furniture/3d/Materials/armchair_1_new.mat using Guid(e7c747c22a0298d4b962e8c728faa03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a490b6ee7e4c0e8114a99d6cf1e16322') in 0.026576 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 0.077406 seconds.
-  path: Assets/RawWoodenFurnitureFree/Textures/BedsV1.png
-  artifactKey: Guid(7af63757bc4132e48a47644c7980cd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RawWoodenFurnitureFree/Textures/BedsV1.png using Guid(7af63757bc4132e48a47644c7980cd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d63fd50c4b1dd2e2ebf271b8b6f08c') in 0.016296 seconds
+  Time since last request: 0.000021 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Materials/mat_door1_red_weathered.mat
+  artifactKey: Guid(635a90e379cbaa348983459195c824dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Materials/mat_door1_red_weathered.mat using Guid(635a90e379cbaa348983459195c824dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49530c8ca5e8615452938bd560ee581') in 0.031416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Azerilo/Demo Floor/Material/Floor.mat
+  artifactKey: Guid(78627c1533e8f394eae102891ce33869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/Demo Floor/Material/Floor.mat using Guid(78627c1533e8f394eae102891ce33869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103c069ba4395cc69694d09722ea35d7') in 0.020996 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001261 seconds.
-  path: Assets/RawWoodenFurnitureFree/Textures/Stool01_albedoV1.png
-  artifactKey: Guid(dd6433f524989d54eb82928446aa45da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RawWoodenFurnitureFree/Textures/Stool01_albedoV1.png using Guid(dd6433f524989d54eb82928446aa45da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f06bcaff3d967310de21e258a9c4a6') in 0.017163 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/RawWoodenFurnitureFree/Materials/BedsV1.mat
+  artifactKey: Guid(c2d10dd76683c4647b8088ed938bc93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Materials/BedsV1.mat using Guid(c2d10dd76683c4647b8088ed938bc93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6129ac4a78d59f86faf2bee80acd46c') in 0.022518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Materials/mat_door4_dark.mat
+  artifactKey: Guid(e3f4538c1cfbef447951dc692e8c7ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Materials/mat_door4_dark.mat using Guid(e3f4538c1cfbef447951dc692e8c7ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c466345e7e84c742609e7c8ccdeae68') in 0.026852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/furniture/demo/stud.mat
+  artifactKey: Guid(35943056f8101dd469b3547df530ded2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/furniture/demo/stud.mat using Guid(35943056f8101dd469b3547df530ded2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b3d2aad49f63c8cef40e322fe74a6c') in 0.061804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Materials/mat_door4_white_weathered.mat
+  artifactKey: Guid(da291d329d3ac0b418c0541226e1d270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Materials/mat_door4_white_weathered.mat using Guid(da291d329d3ac0b418c0541226e1d270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9adf5ad6e995c85405068701fa8f4308') in 0.051266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/RawWoodenFurnitureFree/Materials/Chair02_albedoV2.mat
+  artifactKey: Guid(b25994a44ebd1634786da308551afe4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RawWoodenFurnitureFree/Materials/Chair02_albedoV2.mat using Guid(b25994a44ebd1634786da308551afe4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd14532cd90e33cfc3a7bdc8e8953d87') in 0.026918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Materials/Knobs/mat_doorKnob_brass.mat
+  artifactKey: Guid(f5ff2560e39df5b4db5703fd2fcabd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Materials/Knobs/mat_doorKnob_brass.mat using Guid(f5ff2560e39df5b4db5703fd2fcabd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1098cd3248b484838336c0b1cbfd40a3') in 0.021081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Materials/mat_door4_white.mat
+  artifactKey: Guid(9685193c346b23f4ab5edb5d066f7215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Materials/mat_door4_white.mat using Guid(9685193c346b23f4ab5edb5d066f7215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5daaeb5eb87ac021883d9f055ee34c59') in 0.027465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/furniture/3d/Materials/sofa_1_a.mat
+  artifactKey: Guid(d6eb4f6fcd750714cbb28e1695eed567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/furniture/3d/Materials/sofa_1_a.mat using Guid(d6eb4f6fcd750714cbb28e1695eed567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eecf8a7d6d16d084fb8092771fd508d') in 0.018051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Azerilo/Free Rug Pack/Material/Material1.mat
+  artifactKey: Guid(9b1985632de14cc408bc4491d118dd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/Free Rug Pack/Material/Material1.mat using Guid(9b1985632de14cc408bc4491d118dd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307145149daaea471a154a36d839093c') in 0.018061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TV/Materials/TV-box.mat
+  artifactKey: Guid(99479a8dbc386404d9875b93f87eac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TV/Materials/TV-box.mat using Guid(99479a8dbc386404d9875b93f87eac03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84981e102a471eda0df63ff6bfa63b7') in 0.028519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/JJ_InteriorDoorPack_V1/Materials/mat_door1.mat
+  artifactKey: Guid(ed7456f7ea3eb8c44823541593c9eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JJ_InteriorDoorPack_V1/Materials/mat_door1.mat using Guid(ed7456f7ea3eb8c44823541593c9eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964e2ddc771629cc499fa495f8232231') in 0.027712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.965886 seconds.
+  path: Assets/TV/Prefab/TV-box.prefab
+  artifactKey: Guid(2e20a9d5d499bdb47989d3e52387e91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TV/Prefab/TV-box.prefab using Guid(2e20a9d5d499bdb47989d3e52387e91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55b885ded5c5f6c3c49dbf2d4f8fffd') in 0.020183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 132.104304 seconds.
+  path: Assets/furniture/textures/armchair_1_mid_m.png
+  artifactKey: Guid(2f0345056af9b1842b80473977e4fee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/furniture/textures/armchair_1_mid_m.png using Guid(2f0345056af9b1842b80473977e4fee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe7eb067e03c81c8db96e5afb071451') in 0.029886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/furniture/textures/armchair_1_old_m.png
+  artifactKey: Guid(8feb463d71e778b49814703a7549fee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/furniture/textures/armchair_1_old_m.png using Guid(8feb463d71e778b49814703a7549fee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf63af484dc4bcf65796013b472ecf2') in 0.023363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/furniture/textures/armchair_1_new_a.png
+  artifactKey: Guid(edfc667a66b8da449a6c2b4b404de221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/furniture/textures/armchair_1_new_a.png using Guid(edfc667a66b8da449a6c2b4b404de221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7863dac54750a19231e5a04bd768236') in 0.022053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/furniture/textures/sofa_1_new_m.png
+  artifactKey: Guid(9f877b3b6bef32b428f1d568dc5b0fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/furniture/textures/sofa_1_new_m.png using Guid(9f877b3b6bef32b428f1d568dc5b0fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78d3ec2c566f73687d3f02a128d7e95') in 0.020470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/furniture/textures/armchair_1_new_n.png
+  artifactKey: Guid(5eeec85fb8a47e14cbf666deb6c53581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/furniture/textures/armchair_1_new_n.png using Guid(5eeec85fb8a47e14cbf666deb6c53581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda2fe25f441ece1ac5d1697c66245b8') in 0.026401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/furniture/textures/sofa_1_mid_m.png
+  artifactKey: Guid(f05c3783ec6e2804980d6e10ade655dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/furniture/textures/sofa_1_mid_m.png using Guid(f05c3783ec6e2804980d6e10ade655dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a67f346d7b79a249b44d59b482ae4ac') in 0.009922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/furniture/textures/sofa_1_old_n.png
+  artifactKey: Guid(9e0578f8de9252d45b0d1296440e72c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/furniture/textures/sofa_1_old_n.png using Guid(9e0578f8de9252d45b0d1296440e72c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a42b853e5015e6b684259dda332cf4b') in 0.019502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/furniture/textures/armchair_1_old_n.png
+  artifactKey: Guid(77b19e8ffe3b7944d95e2755a90aa1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/furniture/textures/armchair_1_old_n.png using Guid(77b19e8ffe3b7944d95e2755a90aa1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942a8337b664a66cedc62409f96464e1') in 0.020608 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
